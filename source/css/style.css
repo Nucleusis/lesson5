@@ -1,3 +1,10 @@
+html {
+  height: 100%;
+  width: 100%; }
 
-
-/*# sourceMappingURL=style.css.map */
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("img/tree.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #FFF; }
