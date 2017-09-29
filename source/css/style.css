@@ -9,6 +9,8 @@ body {
   background-size: cover;
   background-position: center;
   background-color: #FFF;
+  background-attachment: fixed;
+  overflow-x: hidden;
   height: 100%;
   width: 100%; }
 
