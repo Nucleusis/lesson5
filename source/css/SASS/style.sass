@@ -22,8 +22,19 @@ section
     max-width: 500px
     font-family: "Andika", sans-serif
     font-size: 1.5em
-section
+    p,
+    h3
+        text-shadow: 3px 3px 10px #cccccc
     p:hover
         text-decoration: underline
         transform: scale(1.2, 1.1)
         transition-duration: 0.3s
+    p
+        &:nth-child(4n+2)
+            color: #000022
+        &:nth-child(4n+3)
+            color: #000044
+        &:nth-child(4n+4)
+            color: #000066
+        &:nth-child(4n+5)
+            color: #000088

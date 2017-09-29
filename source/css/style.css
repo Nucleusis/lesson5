@@ -24,8 +24,18 @@ section {
   max-width: 500px;
   font-family: "Andika", sans-serif;
   font-size: 1.5em; }
-
-section p:hover {
-  text-decoration: underline;
-  transform: scale(1.2, 1.1);
-  transition-duration: 0.3s; }
+  section p,
+  section h3 {
+    text-shadow: 3px 3px 10px #cccccc; }
+  section p:hover {
+    text-decoration: underline;
+    transform: scale(1.2, 1.1);
+    transition-duration: 0.3s; }
+  section p:nth-child(4n+2) {
+    color: #000022; }
+  section p:nth-child(4n+3) {
+    color: #000044; }
+  section p:nth-child(4n+4) {
+    color: #000066; }
+  section p:nth-child(4n+5) {
+    color: #000088; }
