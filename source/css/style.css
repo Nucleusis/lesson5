@@ -26,4 +26,6 @@ section {
   font-size: 1.5em; }
 
 section p:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  transform: scale(1.2, 1.1);
+  transition-duration: 0.3s; }
