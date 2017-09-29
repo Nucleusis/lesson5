@@ -8,20 +8,30 @@ body
     background-position: center
     background-color: #FFF
     background-attachment: fixed
-    overflow-x: hidden
+    overflow: hidden
     height: 80%
     width: 100%
 @import url('https://fonts.googleapis.com/css?family=Andika')
+@keyframes move
+    from
+        top: 100%
+    to
+        top: 25%
 section
     text-align: center
     margin: 0 auto
     position: relative
-    top: 25%
-    width: 30%
+    top: 150%
+    width: 40%
     min-width: 250px
     max-width: 500px
     font-family: "Andika", sans-serif
     font-size: 1.5em
+    animation-name: move
+    animation-duration: 2s
+    animation-delay: 1.5s
+    animation-fill-mode: forwards
+    animation-timing-function: ease-out
     p,
     h3
         text-shadow: 3px 3px 10px #cccccc
