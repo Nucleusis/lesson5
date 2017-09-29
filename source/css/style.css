@@ -17,4 +17,5 @@ section {
   position: relative;
   top: 30%;
   width: 30%;
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 300px; }
