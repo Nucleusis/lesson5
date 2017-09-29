@@ -24,3 +24,6 @@ section {
   max-width: 500px;
   font-family: "Andika", sans-serif;
   font-size: 1.5em; }
+
+section p:hover {
+  text-decoration: underline; }
